@@ -95,9 +95,8 @@ int main()
             case 2:
             {
                 cout << "Stworzone czujniki: " << endl;
-                auto b = T.begin();//bylo T.czujniki.begin();
-                for (b = T.begin(); b != T.end(); b++) //zamiast T.begin() bylo T.czujniki.begin()
-                    //zamiast T.end() bylo T.czujniki.end()
+                auto b = T.begin();
+                for (b = T.begin(); b != T.end(); b++)
                 {
                     cout << (*b)->wezNazwe() << endl;
                 }
@@ -109,9 +108,8 @@ int main()
             case 3:
             {
                 double min,max;
-                auto a = T.begin();//bylo T.czujniki.begin()
-                for (a = T.begin(); a != T.end(); a++) //zamiast T.begin() bylo T.czujniki.begin()
-                    //zamiast T.end() bylo T.czujniki.end()
+                auto a = T.begin();
+                for (a = T.begin(); a != T.end(); a++)
                 {
                     cout << "Podaj minimalna wartosc dla " << (*a)->wezNazwe() << ": ";
                     cin >> min;
